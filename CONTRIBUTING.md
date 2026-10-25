@@ -18,7 +18,7 @@ Esempio:
 
 ## Modificare direttamente il file
 
-Se usi GitHub, puoi proporre la modifica a `dialetto-bresciano/SKILL.md` con una Pull Request. Tieni a mente:
+Se usi GitHub, puoi proporre la modifica a `skills/dialetto-bresciano/SKILL.md` con una Pull Request. Tieni a mente:
 
 - scrivi nella grafia della skill (sezione 1 del file);
 - indica il paese o la zona di ogni forma locale;

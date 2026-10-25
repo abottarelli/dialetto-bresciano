@@ -1,0 +1,14 @@
+{
+  "name": "dialetto-bresciano",
+  "description": "Skill per scrivere, leggere e tradurre il dialetto bresciano · AI skill for the Brescian dialect",
+  "owner": {
+    "name": "Alberto",
+    "url": "https://github.com/abottarelli"
+  },
+  "plugins": [
+    {
+      "name": "dialetto-bresciano",
+      "source": "./"
+    }
+  ]
+}

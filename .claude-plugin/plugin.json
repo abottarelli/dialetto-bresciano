@@ -1,0 +1,24 @@
+{
+  "name": "dialetto-bresciano",
+  "displayName": "Dialetto bresciano",
+  "version": "1.0.0",
+  "description": "Scrivere, leggere e tradurre il dialetto bresciano (dialèt bresà): grammatica, pronuncia, lessico, detti e varianti di città, Garda e valli. AI skill for the Brescian dialect (Eastern Lombard, lmo).",
+  "author": {
+    "name": "Alberto",
+    "url": "https://github.com/abottarelli"
+  },
+  "homepage": "https://github.com/abottarelli/dialetto-bresciano",
+  "repository": "https://github.com/abottarelli/dialetto-bresciano",
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "bresciano",
+    "brescian",
+    "dialetto",
+    "lombard",
+    "lmo",
+    "italian-dialects",
+    "translation",
+    "language-learning"
+  ],
+  "icon": "./.claude-plugin/icon.png"
+}

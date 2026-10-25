@@ -31,16 +31,20 @@ Con la skill attiva l'AI può:
 ## Come installarla
 
 **Claude (app e sito claude.ai)**
-Comprimi la cartella `dialetto-bresciano` in un file .zip e caricalo dalle impostazioni delle skill di Claude. Poi basta scrivere in dialetto o chiedere "parliamo in bresciano".
+Comprimi la cartella `skills/dialetto-bresciano` in un file .zip e caricalo dalle impostazioni delle skill di Claude. Poi basta scrivere in dialetto o chiedere "parliamo in bresciano".
 
 **Claude Code**
-Copia la cartella `dialetto-bresciano` in `~/.claude/skills/`.
+In una sessione di Claude Code:
+
+```
+/plugin install dialetto-bresciano --marketplace abottarelli/dialetto-bresciano
+```
 
 **Altri strumenti compatibili con le Agent Skills**
-Il file `SKILL.md` segue lo standard aperto [Agent Skills](https://agentskills.io): copia la cartella dove lo strumento si aspetta le skill.
+Il file `SKILL.md` segue lo standard aperto [Agent Skills](https://agentskills.io). Con la CLI di skills.sh: `npx skills add abottarelli/dialetto-bresciano`. Oppure copia la cartella `skills/dialetto-bresciano` dove lo strumento si aspetta le skill.
 
 **ChatGPT, Gemini e altre chat**
-Copia il contenuto di `dialetto-bresciano/SKILL.md` nelle istruzioni personalizzate, in un GPT personalizzato o in un Gem. Il risultato dipende anche da quanto quel modello conosce già il dialetto.
+Copia il contenuto di `skills/dialetto-bresciano/SKILL.md` nelle istruzioni personalizzate, in un GPT personalizzato o in un Gem. Il risultato dipende anche da quanto quel modello conosce già il dialetto.
 
 ## Contribuire
 
@@ -75,7 +79,7 @@ AI assistants handle Italian well but struggle with Brescian: they mix it with B
 
 With the skill active, the AI can converse in Brescian, translate Italian ↔ Brescian, read texts in different spelling systems and explain their pronunciation, teach grammar, and point to sources. Explanations are in Italian; text only, no audio.
 
-**Install:** for Claude, zip the `dialetto-bresciano` folder and upload it in Claude's skill settings; for Claude Code, copy it to `~/.claude/skills/`. The `SKILL.md` follows the open [Agent Skills](https://agentskills.io) standard, so it works in other compatible tools. For ChatGPT, Gemini and other chats, paste the `SKILL.md` content into custom instructions.
+**Install:** for Claude, zip the `skills/dialetto-bresciano` folder and upload it in Claude's skill settings; for Claude Code, run `/plugin install dialetto-bresciano --marketplace abottarelli/dialetto-bresciano`; with the skills.sh CLI, `npx skills add abottarelli/dialetto-bresciano`. The `SKILL.md` follows the open [Agent Skills](https://agentskills.io) standard, so it works in other compatible tools. For ChatGPT, Gemini and other chats, paste the `SKILL.md` content into custom instructions.
 
 **Contributing:** native speakers' corrections are the most valuable part of this project. Open an Issue with the correct form, the town where it is used, and an example sentence.
 
